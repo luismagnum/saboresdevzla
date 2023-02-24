@@ -208,7 +208,7 @@ h4{
     padding: 50px 0;
     display: flex;
     justify-content: center;
-    border-top: 1px solid #fff4ff52;
+    border-top: 2px solid #fff4ff52;
 }
 
 .link a{
@@ -223,8 +223,11 @@ h4{
 
 .imagen{
     display: flex;
+    margin-top: 5px;
     width: 30px;
     height: 30px;
+    color: white;
+    font-weight: bold;
     text-align: center; 
 }
 
