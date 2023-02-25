@@ -51,7 +51,7 @@ body{
 }
 
 .sticky{
-    width: 100%;
+    width: auto;
     background-color: #515151;
     opacity: 0.5;
 }
