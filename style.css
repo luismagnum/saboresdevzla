@@ -93,7 +93,7 @@ body{
 
 }
 
-img{
+.label img{
     margin-top: 20px;
     border-radius: 75%;
 }
@@ -204,6 +204,7 @@ h4{
     margin-bottom: 15px;
 }
 
+
 .footer{
     padding: 50px 0;
     display: flex;
@@ -230,6 +231,24 @@ h4{
     font-weight: bold;
     text-align: center; 
 }
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.imade{
+    width: 30px;
+    margin-left: 10px;
+}
+
 
 
 @media(max-width:991px){
