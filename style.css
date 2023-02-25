@@ -232,6 +232,14 @@ h4{
     text-align: center; 
 }
 
+.empanada-1 .fiesta{
+    margin-top: 20px;
+}
+
+.empanada-1 .ajo{
+    margin-top: 0;
+}
+
 .contenedor{
     display: flex;
     justify-content: center;
@@ -247,6 +255,10 @@ h4{
 .imade{
     width: 30px;
     margin-left: 10px;
+}
+
+.final{
+    margin-bottom: 20px;
 }
 
 
