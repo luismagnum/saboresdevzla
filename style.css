@@ -137,12 +137,14 @@ body{
     color: #ffcd31;
     text-transform: uppercase;
     margin-bottom: 25px;
+    animation: left-move 1s ease-in;
 }
 
 .header-txt span{
     font-size: 40px;
     color: #fff4ff;
     font-family: 'Permanent Marker', cursive;
+    animation: right-move 1s ease-in;
 }
 
 p{
@@ -375,5 +377,27 @@ h4{
         flex-direction: column;
         text-align: center;
         padding: 30px;
+    }
+}
+
+@keyframes left-move{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes right-move{
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
     }
 }
