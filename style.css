@@ -193,6 +193,11 @@ h4{
     text-align: center;
 }
 
+.sigue h4{
+    margin-top: 5px;
+    font-size: 20px;
+}
+
 .empanada{
     padding: 0 0 100px 0;
     text-align: center;
@@ -275,7 +280,7 @@ h4{
 }
 
 .imade{
-    width: 30px;
+    width: 40px;
     margin-left: 10px;
 }
 
