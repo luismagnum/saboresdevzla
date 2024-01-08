@@ -118,7 +118,7 @@ body{
 }
 
 .header-img img{
-    width: 500px;
+    width: 350px;
     vertical-align: middle;
 }
 
@@ -174,7 +174,6 @@ p{
 
 .info-1 img{
    width: 400px;
-   height: 280px;
    vertical-align: middle;
 }
 
@@ -309,6 +308,21 @@ h5{
     margin-bottom: 20px;
 }
 
+.scroll{
+    position: fixed;
+    bottom: 2.2rem;
+    border-top: 2rem;
+    right: 3.2rem;
+}
+
+.scroll i{
+    font-size: 20px;
+    color:white;
+    background:teal;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
 
 
 @media(max-width:991px){
@@ -369,7 +383,7 @@ h5{
 
     .header-img img{
         width: 300px;
-        height: 200px;
+        height: 300px;
     }
 
     h2{
@@ -388,7 +402,7 @@ h5{
     }
 
     .info-1 img{
-        width: 250px;
+        width: 300px;
     }
 
     .info-2{
