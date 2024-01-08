@@ -294,10 +294,6 @@ h4{
     transform: scale(1.1);
 }
 
-
-   
-
-
 h5{
     font-size: 20px;
     margin-top: 5px;
@@ -318,7 +314,7 @@ h5{
 .scroll i{
     font-size: 20px;
     color:white;
-    background:teal;
+    background: #fece00;
     padding: 10px;
     border-radius: 1rem;
 }
